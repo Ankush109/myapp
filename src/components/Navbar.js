@@ -18,7 +18,7 @@ function Navbar() {
           <DashboardIcon/>
           </div>
        <div className='d'>
-       <Link to="/">
+       <Link to="/" className='l'>
             <h2>Dashboard</h2>
            </Link> 
         </div>
@@ -28,7 +28,7 @@ function Navbar() {
           <AccountBalanceWalletIcon/>
           </div>
        <div className='d'>
-       <Link to="/wallet">
+       <Link to="/wallet" className='l'>
             <h2>Wallet</h2>
            </Link> 
         </div>
@@ -38,7 +38,7 @@ function Navbar() {
           <DonutSmallIcon/>
           </div>
        <div className='d'>
-       <Link to="/statistics">
+       <Link to="/statistics" className='l'>
             <h2>Statistics</h2>
            </Link> 
         </div>
@@ -49,7 +49,7 @@ function Navbar() {
           <MessageIcon/>
           </div>
        <div className='d'>
-       <Link to="/message">
+       <Link to="/message" className='l'>
             <h2>Message</h2>
            </Link> 
         </div>
@@ -59,7 +59,7 @@ function Navbar() {
           <AccountCircleIcon />
           </div>
        <div className='d'>
-       <Link to="/profile">
+       <Link to="/profile" className='l'>
             <h2>Profile</h2>
            </Link> 
         </div>

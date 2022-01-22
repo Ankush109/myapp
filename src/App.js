@@ -11,7 +11,10 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
+      <div className='navabar'> 
       <Navbar/>
+      </div>
+    
       <div className='routes'>
       <Routes>
    

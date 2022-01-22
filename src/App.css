@@ -1,8 +1,12 @@
 .App{
   display: flex;
+  overflow: hidden;
 }
 .routes{
-  flex-basis: 0;
-  flex-grow: 999;
-  min-inline-size: 50%;
+  flex: 0.8;
+  width: 100%;
+}
+.navbar{
+  flex: 0.2;
+
 }

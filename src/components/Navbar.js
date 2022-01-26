@@ -18,7 +18,7 @@ function Navbar() {
           <DashboardIcon/>
           </div>
        <div className='d'>
-       <Link to="/" className='l'>
+       <Link to="/" style={{ color: 'inherit', textDecoration: 'inherit'}} className='l'>
             <h2>Dashboard</h2>
            </Link> 
         </div>
@@ -28,7 +28,7 @@ function Navbar() {
           <AccountBalanceWalletIcon/>
           </div>
        <div className='d'>
-       <Link to="/wallet" className='l'>
+       <Link to="/wallet" className='l' style={{ color: 'inherit', textDecoration: 'inherit'}}>
             <h2>Wallet</h2>
            </Link> 
         </div>
@@ -38,7 +38,7 @@ function Navbar() {
           <DonutSmallIcon/>
           </div>
        <div className='d'>
-       <Link to="/statistics" className='l'>
+       <Link to="/statistics" className='l' style={{ color: 'inherit', textDecoration: 'inherit'}}>
             <h2>Statistics</h2>
            </Link> 
         </div>
@@ -49,7 +49,7 @@ function Navbar() {
           <MessageIcon/>
           </div>
        <div className='d'>
-       <Link to="/message" className='l'>
+       <Link to="/message" className='l' style={{ color: 'inherit', textDecoration: 'inherit'}}>
             <h2>Message</h2>
            </Link> 
         </div>
@@ -59,7 +59,7 @@ function Navbar() {
           <AccountCircleIcon />
           </div>
        <div className='d'>
-       <Link to="/profile" className='l'>
+       <Link to="/profile" className='l' style={{ color: 'inherit', textDecoration: 'inherit'}}>
             <h2>Profile</h2>
            </Link> 
         </div>

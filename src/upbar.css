@@ -1,0 +1,49 @@
+
+.topbar{
+    height: 100%;
+    padding:0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+}
+.right-input input[type=text] {
+   display: flex;
+   justify-content: center;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+  
+    font-size: 17px;
+  }
+ 
+
+
+.top-right{
+
+    display: flex;
+    align-self: center;
+}
+.right-input{
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+}
+.search{
+    padding-right:10px;
+    padding-top: 20px;
+}
+.notify{
+    padding-right:10px;
+    padding-top: 20px;
+}
+.avatar{
+    padding-right:10px;
+    padding-top: 10px;
+}

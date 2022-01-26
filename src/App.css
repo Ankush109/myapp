@@ -1,6 +1,7 @@
 .App{
   display: flex;
   overflow: hidden;
+  font-family: 'Oxygen', sans-serif;
 }
 .routes{
   flex: 0.8;
@@ -9,4 +10,7 @@
 .navbar{
   flex: 0.2;
 
+}
+.upbar{
+  flex: 0.2;
 }

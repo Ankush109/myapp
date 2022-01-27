@@ -6,7 +6,7 @@ function Leftbar() {
           <h1>Cards</h1>
           </div>
           <div className='card-pic'> 
-          <img width="450px" src="https://i.pinimg.com/564x/4a/71/1e/4a711ee02922b97a39d9c1e56a3189f2--black-card-credit-cards.jpg"/>
+          <img width="470px" src="https://i.pinimg.com/564x/4a/71/1e/4a711ee02922b97a39d9c1e56a3189f2--black-card-credit-cards.jpg"/>
           </div>
           <div className='current_balance'>
             <div className='header'>

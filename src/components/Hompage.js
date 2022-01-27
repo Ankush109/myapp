@@ -5,6 +5,7 @@ import { userData } from '../dummydata';
 import Leftbar from './Rightbar';
 import Upbar from './Upbar';
 
+import Transactions from './Transactions';
 
 
 function Hompage() {
@@ -19,33 +20,21 @@ function Hompage() {
   
       <div className='charts'>
       <Charts data={userData} title="User Analytics" grid dataKey="Active User"/>
-      <div className='cont'>
-       <div>
-         <h1>
-           Last Transactions
-         </h1>
-       </div>
-       <div className='row1'>
-         <h2>Amazon</h2>
-         <h3>shopping</h3>
-         <h2>$1,480</h2>
-       </div>
-       <div className='row1'>
-         <h2>Youtube </h2>
-         <h3>Subscription</h3>
-         <h2>$330</h2>
-       </div>
-       <div className='row1'>
-         <h2>Github</h2>
-         <h3>Development</h3>
-         <h2>$2,280</h2>
-       </div>
-       <div className='row1'>
-         <h2>Apple </h2>
-         <h3>shopping</h3>
-         <h2>$69</h2>
-       </div>
-     </div>
+      <div className='transactions'>
+        <div>
+          <h1>Last Transactions</h1>
+        </div>
+        <div className='items'>
+
+      
+      <Transactions title="Amazon" money="$69" type="Shopping"/>
+      <Transactions title="Youtube " money="$69" type="subsrciption"/>
+      <Transactions title="Github" money="$69" type="Development"/>
+      <Transactions title="Flipkart" money="$69" type="subsrciption"/>
+      </div>
+
+      </div>
+   
       </div>
       <div className='leftbar'>
         <Leftbar/>

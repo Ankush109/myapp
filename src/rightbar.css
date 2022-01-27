@@ -50,3 +50,8 @@ color: white;
         display: inline-block;
         font-size: 16px;
 }
+.avatar{
+    display:flex;
+    justify-content: space-evenly;
+    padding:30px;
+}
